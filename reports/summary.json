@@ -1,0 +1,40 @@
+{
+  "shape": [
+    18442,
+    9
+  ],
+  "columns": [
+    "Clothing ID",
+    "Age",
+    "Title",
+    "Review Text",
+    "Positive Feedback Count",
+    "Division Name",
+    "Department Name",
+    "Class Name",
+    "Recommended IND"
+  ],
+  "target": "Recommended IND",
+  "num_cols": [
+    "Clothing ID",
+    "Age",
+    "Positive Feedback Count"
+  ],
+  "cat_cols": [
+    "Title",
+    "Division Name",
+    "Department Name",
+    "Class Name"
+  ],
+  "text_cols": [
+    "Review Text"
+  ],
+  "target_counts": {
+    "1": 15053,
+    "0": 3389
+  },
+  "target_proportions": {
+    "1": 0.8162,
+    "0": 0.1838
+  }
+}
